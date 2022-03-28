@@ -1,1 +1,41 @@
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  font-size: 20px;
+}
 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.mainMenu{
+  border: 2px solid black;
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  text-align: center;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom: 200px;
+  padding-bottom: 20px;
+  border-radius: 100px;
+}
+
+.resultMenu{
+  border: 2px solid black;
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 100px;
+  font-weight: 500;
+}
+
+.siteName{
+  -webkit-text-stroke: 1px white;
+}
